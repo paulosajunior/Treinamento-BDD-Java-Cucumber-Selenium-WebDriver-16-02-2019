@@ -1,0 +1,372 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 9691928891,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site \"https://automacaocombatista.herokuapp.com/users/new\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automacaocombatista.herokuapp.com/users/new",
+                  "offset": 19
+                }
+              ],
+              "location": "AutomacaoWebStep.queEstouNoSite(String)"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Cadastrar usuário válido",
+        "description": "",
+        "id": "cadastro-de-usuario;cadastrar-usuário-válido;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 347886713,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.aScreenshots()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2821967624,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.bfechaBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 827633235,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que tenho \"Paulo\", \"Junior\" e \"paulojunior@gmail.com\" validos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paulo",
+                  "offset": 11
+                },
+                {
+                  "val": "Junior",
+                  "offset": 20
+                },
+                {
+                  "val": "paulojunior@gmail.com",
+                  "offset": 31
+                }
+              ],
+              "location": "AutomacaoWebStep.queTenhoEValidos(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1737280974,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "faco o cadastro",
+            "match": {
+              "location": "AutomacaoWebStep.facoOCadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 154387083,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu vejo a mensagem \"Usuário Criado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário Criado com sucesso",
+                  "offset": 20
+                }
+              ],
+              "location": "AutomacaoWebStep.euVejoAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 8247976729,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site \"https://automacaocombatista.herokuapp.com/users/new\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automacaocombatista.herokuapp.com/users/new",
+                  "offset": 19
+                }
+              ],
+              "location": "AutomacaoWebStep.queEstouNoSite(String)"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Cadastrar usuário válido",
+        "description": "",
+        "id": "cadastro-de-usuario;cadastrar-usuário-válido;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 318747607,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.aScreenshots()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2825786106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.bfechaBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 785851186,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que tenho \"Paulo2\", \"junior2\" e \"teste@junio.com.br\" validos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paulo2",
+                  "offset": 11
+                },
+                {
+                  "val": "junior2",
+                  "offset": 21
+                },
+                {
+                  "val": "teste@junio.com.br",
+                  "offset": 33
+                }
+              ],
+              "location": "AutomacaoWebStep.queTenhoEValidos(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1997590274,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "faco o cadastro",
+            "match": {
+              "location": "AutomacaoWebStep.facoOCadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 71496212,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu vejo a mensagem \"Usuário Criado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário Criado com sucesso",
+                  "offset": 20
+                }
+              ],
+              "location": "AutomacaoWebStep.euVejoAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 7760300993,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que estou no site \"https://automacaocombatista.herokuapp.com/users/new\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://automacaocombatista.herokuapp.com/users/new",
+                  "offset": 19
+                }
+              ],
+              "location": "AutomacaoWebStep.queEstouNoSite(String)"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Cadastrar usuário válido",
+        "description": "",
+        "id": "cadastro-de-usuario;cadastrar-usuário-válido;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 354205541,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.aScreenshots()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2867292143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AutomacaoWebStep.bfechaBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Esquema do Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 736753115,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "que tenho \"Paulo3\", \"Junior3\" e \"teste3@teste.com.be\" validos",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Paulo3",
+                  "offset": 11
+                },
+                {
+                  "val": "Junior3",
+                  "offset": 21
+                },
+                {
+                  "val": "teste3@teste.com.be",
+                  "offset": 33
+                }
+              ],
+              "location": "AutomacaoWebStep.queTenhoEValidos(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1987010060,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "faco o cadastro",
+            "match": {
+              "location": "AutomacaoWebStep.facoOCadastro()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 53970007,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "eu vejo a mensagem \"Usuário Criado com sucesso\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Usuário Criado com sucesso",
+                  "offset": 20
+                }
+              ],
+              "location": "AutomacaoWebStep.euVejoAMensagem(String)"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de Usuario",
+    "description": "Sendo eu um aluno de curso de BDD com cucumber\r\nquero automatizar o cadastro de usuario\r\npara treinar meu BDD e minha automação",
+    "id": "cadastro-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "src/test/resources/features/automacaoWeb.feature"
+  }
+]

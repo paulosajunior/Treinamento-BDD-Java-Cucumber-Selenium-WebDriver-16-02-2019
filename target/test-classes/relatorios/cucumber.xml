@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="43.588065">
+<testcase classname="Cadastro de Usuario" name="Cadastrar usuário válido" time="15.581085">
+<system-out><![CDATA[Dado que estou no site "https://automacaocombatista.herokuapp.com/users/new".passed
+E que tenho "Paulo", "Junior" e "paulojunior@gmail.com" validos.............passed
+Quando faco o cadastro......................................................passed
+Então eu vejo a mensagem "Usuário Criado com sucesso".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cadastro de Usuario" name="Cadastrar usuário válido" time="14.247448">
+<system-out><![CDATA[Dado que estou no site "https://automacaocombatista.herokuapp.com/users/new".passed
+E que tenho "Paulo2", "junior2" e "teste@junio.com.br" validos..............passed
+Quando faco o cadastro......................................................passed
+Então eu vejo a mensagem "Usuário Criado com sucesso".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cadastro de Usuario" name="Cadastrar usuário válido" time="13.759532">
+<system-out><![CDATA[Dado que estou no site "https://automacaocombatista.herokuapp.com/users/new".passed
+E que tenho "Paulo3", "Junior3" e "teste3@teste.com.be" validos.............passed
+Quando faco o cadastro......................................................passed
+Então eu vejo a mensagem "Usuário Criado com sucesso".......................passed
+]]></system-out>
+</testcase>
+</testsuite>
